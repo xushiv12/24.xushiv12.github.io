@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SLL Download</title>
+<!--[if lt IE 9]>
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/html5shiv/r29/html5.min.js"></script>
+<![endif]-->
+<style>
+body{
+	background-image:url('https://github.com/xushiv12/12.xushiv12.github.io/blob/main/docs/1.png?raw=true');
+	}
+#a{
+	background-color:lime;
+	width:100%;
+	height:100px;
+	position:fixed;
+	top:0;left:0;
+	display:flex;
+	}
+#a h1{
+	color:red;
+	cursor:pointer;
+	}
+#a p{
+	display:none;
+	text-align:center;
+	}
+#d{
+	display:none;
+	}
+span h1{
+	top:120px;
+	position:fixed;
+	}
+span p{
+	z-index:999;
+	position:absolute;
+	top:170px;
+	}
+</style>
+<link rel="icon" href="https://github.com/xushiv12/12.xushiv12.github.io/blob/main/docs/1.png?raw=true">
+</head>
+<body>
+<div id="a">
+	<h1 id="b">win-xufang</h1>
+	<p id="c">一个为虚拟域名提供SSL的软件</p>
+	<button onclick="A()">下载<br>wSSL.exe</button>
+</div><br>
+	<a href="/wSSL.exe" id="d" download>下载</a>
+<script>
+document.getElementById("b").addEventListener("click",()=>{
+		document.getElementById("c").style.display="block";
+});
+function A(){
+	document.getElementById("d").click();
+}
+</script><br>
+<span>
+	<h1>win-xufang:</h1><br>
+	<p>一个能为XuFang虚拟域名配置SSL证书的工具,如果要为普通网站配置,请下载<a href="https://github.com/win-acme/win-acme/releases/download/v2.2.9.1701/win-acme.v2.2.9.1701.x64.pluggable.zip" download>WIN-ACME</a></p>
+</span>
+</body>
+</html>
