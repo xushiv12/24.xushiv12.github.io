@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>运用:xuh.js全新</title>
+<link rel="icon" href="https://www.runoob.com/images/pic_bulbon.gif">
+	<style>
+		a{
+			display:block;
+		}
+		div{
+			display:block;
+		}
+		img{
+			display:block;
+		}
+	</style>
+</head>
+<body style="background-color:pink;text-align:center;">
+	<h1 style="color:green">运用xuh.js</h1>
+	<p style="color:red">使用下面这句代码来调用:</p><br>
+	<code style="background-color:gray">&lt;script src="https://chrome.xu-guang-you-xushi.com/main_xuh.js"&gt;&lt;/script&gt;</code><br>
+	<input type="button" value="复制" onclick="A()"><br>
+	<b>或者</b><br>
+	<pre>
+点击这里<a href="https://chrome.xu-guang-you-xushi.com/main_xuh.js" download="xuh.js">下载</a>
+	</pre>
+	<div style="position:absolute;left:-999999999px;">
+    <input type="text" value='<script src="https://chrome.xu-guang-you-xushi.com/main_xuh.js"></script>' id="xu">
+	</div>
+<script>
+function A(){
+	let a=document.getElementById("xu");
+	a.select();
+	document.execCommand("copy");
+}
+</script>
+</body>
+</html>
